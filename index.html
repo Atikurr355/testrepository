@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="address.css">
+</head>
+<body >
+    <header>
+        <nav>
+            <div class="brand">
+                <ul>
+                    <li><a href="index.html">Brand</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+   <div class="container" style="min-height: 100vh; padding: 30px;">
+    <a href="index.html">Index</a>
+    <dl>
+        <dt>Address</dt>
+        <dd>
+            <address>
+                Atikur Rahman <br> Munshiganj Dhaka-1200 Bangladesh <br>
+                Atikur Rahman live in <abbr title="Bangladesh">BD</abbr>
+            </address>
+        </dd>
+    </dl>
+
+    <h3>Text indentation right to left</h3>
+    <p>I love Django framework</p>
+    <p><bdo dir="rtl">I love Django framework</bdo></p>
+    <!-- <div class="animation">
+        <div class="boxani">
+            Akhirat
+        </div>
+    </div> -->
+    <div class="list">
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatibus temporibus doloribus soluta, impedit vero dolorem distinctio amet modi! Dolorem?</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, sapiente sint? Similique quia hic, ipsum accusantium quibusdam beatae rem. Veniam!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci in consectetur atque dignissimos asperiores facilis quod odio inventore provident labore!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque sed consequatur tenetur atque amet, at optio autem similique expedita?</li>
+        </ul>
+    </div>
+    <div id="msgs">
+        <h1>the sum of Program</h1>
+        <hr>
+        <table>
+            <tr>
+                <td><label>Enter A:</label></td>
+                <td><input type="text" name="texta" id="texta"></td>
+            </tr>
+            <tr>
+                <td><label>Enter B:</label></td>
+                <td><input type="text" name="textb" id="textb"></td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <input type="button" value="Calculate" onclick="Calculate()">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Sum</label></td>
+                <td>
+                    <input type="text" name="textc" id="textc" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Greater</label></td>
+                <td>
+                    <input type="text" name="greater" id="greater" readonly>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div class="sale">
+        <h1>discount calculator Program</h1>
+        <hr>
+        <table>
+            <tr>
+                <td><label>Enter sales Amount:</label></td>
+                <td><input type="text" name="textamount" id="textamount"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="saleCalculate" onclick="saleCalculate()">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Discount B:</label></td>
+                <td><input type="text" name="textdisc" id="textdisc" readonly></td>
+            </tr>
+            <tr>
+                <td><label>Net Pay:</label></td>
+                <td><input type="text" name="textnp" id="textnp" readonly></td>
+            </tr>
+            
+    </div>
+   </div>
+</body>
+</html>
