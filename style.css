@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    width: 1340px;
+}
+header{
+    height: 40px;
+    background-color: crimson;
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
+    line-height: 40px;
+    position: sticky;
+    top: 0;
+}
+header nav .brand{
+    width: 50%;
+    float: left;
+}
+header nav .link{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+header nav ul{
+    list-style: none;
+}
+header nav .link ul li{
+    display: inline;
+    font-weight: 700;
+    margin-right: 10px;
+}
+header nav ul li a{
+    color: white;
+}
+
+a:hover{
+    border-bottom: 2px rgb(247, 247, 250) dotted;
+}
+
+section{
+    width: 80%;
+    min-height: 100vh;
+    background-color: rgb(255, 250, 231);
+    padding: 30px;
+    float: left;
+    color:linear-gradient(rgb(108, 108, 160),rgb(228, 194, 194));
+    background-image: linear-gradient(#8395a7,red);
+    
+}
+.para::first-letter{
+    font-size: 35px;
+    color:red;
+}
+h3::before{
+    content: url("dhan.png");
+}
+h3{
+    font-size: 35px;
+    color:cornsilk;
+    text-shadow: 4px 2px 2px black;
+}
+
+aside{
+    top: 0;
+    width: 15.53%;
+    float: right;
+    padding-top: 30px;
+    
+}
+
+.animation{
+    height: 150px;
+    width: 60%;
+    margin: auto;
+    background-color: black;
+}
+.boxani{
+    margin-top:30px ;
+    margin-left: 30px;
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    animation: boxes 6s ease-in infinite;
+    text-align: center;
+    
+}
+
+@keyframes boxes{
+    from {
+        background-color: rgb(211, 37, 37);
+        transform: rotate(90deg);
+        border-radius:50%;
+    }
+    to{
+        background-color:rgb(26, 20, 20);
+        transform: rotate(180deg);
+        margin-left: 250%;
+        
+    }
+    /* 50%{
+        background-color:rgb(94, 7, 7);
+        transform: rotate(270deg);
+        margin-left: 50%;
+    }
+    75%{
+        background-color:rgb(52, 31, 145);
+        transform: rotate(360deg);
+        margin-left: 100%;
+        border-radius:75%;
+    }
+    80%{
+        background-color:rgb(81, 75, 109);
+        transform: rotate(360deg);
+        margin-left: 100%;
+    } */
+}
+.video{
+    height: 300px;
+    width:300px;
+    margin: 10px;
+    clear: both;
+}
+.list{
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.list ul{
+    list-style: inside circle ;
+}
+.flag{
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    background-color: green;
+    position: relative;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+.atik{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    color: white;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    left: 30px;
+    bottom: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    opacity: .9;
+    color: lightblue;
+    padding:3px;
+    bottom: 0;
+    clear: both;
+}
